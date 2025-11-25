@@ -22,7 +22,7 @@ export default function Navbar() {
             Espresso <span className="font-medium">Check</span>
           </p>
         </a>
-        
+
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 font-medium text-green-700">
           <a

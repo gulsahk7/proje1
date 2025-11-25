@@ -18,11 +18,15 @@ export default function ContactSection() {
           </div>
           <div className="flex flex-col md:flex-row items-center gap-3">
             <FaPhoneAlt className="text-green-700 text-xl shrink-0" />
-            <p className="text-sm md:text-base text-gray-700">+90 536 714 11 22</p>
+            <p className="text-sm md:text-base text-gray-700">
+              +90 536 714 11 22
+            </p>
           </div>
           <div className="flex flex-col md:flex-row items-center gap-3">
             <FaEnvelope className="text-green-700 text-xl shrink-0" />
-            <p className="text-sm md:text-base text-gray-700">support@espressocheck.com</p>
+            <p className="text-sm md:text-base text-gray-700">
+              support@espressocheck.com
+            </p>
           </div>
           <div className="mt-6 rounded-xl border border-green-700 overflow-hidden w-full">
             <iframe
@@ -40,7 +44,9 @@ export default function ContactSection() {
             Send Us Message
           </p>
           <div className="flex flex-col text-left">
-            <label className="font-medium text-sm md:text-base text-gray-700">Name*</label>
+            <label className="font-medium text-sm md:text-base text-gray-700">
+              Name*
+            </label>
             <input
               type="text"
               className="mt-1 px-3 py-2 border rounded-md outline-green-600 text-sm"
@@ -48,7 +54,9 @@ export default function ContactSection() {
             />
           </div>
           <div className="flex flex-col text-left">
-            <label className="font-medium text-sm md:text-base text-gray-700">Email*</label>
+            <label className="font-medium text-sm md:text-base text-gray-700">
+              Email*
+            </label>
             <input
               type="email"
               className="mt-1 px-3 py-2 border rounded-md outline-green-600 text-sm"
@@ -56,7 +64,9 @@ export default function ContactSection() {
             />
           </div>
           <div className="flex flex-col text-left">
-            <label className="font-medium text-sm md:text-base text-gray-700">Message*</label>
+            <label className="font-medium text-sm md:text-base text-gray-700">
+              Message*
+            </label>
             <textarea
               className="mt-1 px-3 py-2 border rounded-md outline-green-600 min-h-[120px]"
               placeholder="Write your message..."
