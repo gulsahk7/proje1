@@ -1,1 +1,1 @@
-live preview : https://proje1-rosy-omega.vercel.app/
+live preview : https://next-js-coffee-website-tau.vercel.app/
